@@ -30,15 +30,15 @@
  /*Контейнеры*/
  .container_main {
      display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh; 
-}
- 
+     justify-content: center;
+     align-items: center;
+     height: 70vh;
+ }
+
 
  .clon {
      transform: scaleX(-1);
-     margin-left: -50px;    
+     margin-left: -50px;
  }
 
  .con {
@@ -63,20 +63,20 @@
  }
 
  .cont_lov {
-    position: fixed;
+     position: fixed;
      font-size: 12px;
      line-height: 0.01;
-    top: 66%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+     top: 66%;
+     left: 50%;
+     transform: translate(-50%, -50%);
  }
 
  .text_lov2 {
-     margin-left: 15px;
+     margin-left: 15%;
  }
 
  .text_lov3 {
-     margin-left: 20px;
+     margin-left: 20%;
  }
 
 
@@ -84,7 +84,7 @@
 
  /*Основные элементы*/
  .one {
-     margin-left: 60px;
+     margin-left: 20%;
      font-size: 17px;
  }
 
@@ -152,17 +152,35 @@
      height: 120px;
      background-color: black;
  }
- .text_footer{
-    color: aliceblue;
-    margin-left: 87%;
-    margin-top: 80px;
+
+ .text_footer {
+     color: aliceblue;
+     margin-left: 87%;
+     margin-top: 80px;
  }
 
 
 
-@media(max-width: 550px){
-    
-    .container_main{
-        transform: scale(0.8);
-    }
-}
+ @media(max-width: 550px) {
+
+     .container_main {
+         transform: scale(0.8);
+     }
+
+     .clon {
+         margin-left: 10px;
+     }
+
+     .cont_lov {
+         font-size: 8px;
+         top: 62%;
+     }
+
+ }
+
+ @media(max-width: 1600px) {
+     .text_footer {
+         margin-left: 60%;
+         margin-top: 70px;
+     }
+ }
