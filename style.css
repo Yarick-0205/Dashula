@@ -1,0 +1,166 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     margin-top: -16px;
+     height: 120px;
+     background-color: black;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ main {
+     background-color: rgb(255, 217, 230);
+     height: 710px;
+ }
+
+ /*Контейнеры*/
+ .container_main {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+}
+ 
+
+ .clon {
+     transform: scaleX(-1);
+     margin-left: -50px;    
+ }
+
+ .con {
+     display: flex;
+     line-height: 0.01;
+     font-size: 12px;
+ }
+
+ .text {
+     margin-left: 20px;
+ }
+
+ .text1 {
+     transform: scaleX(-1);
+     margin-left: 20px;
+ }
+
+ .container {
+     height: 500px;
+     width: 300px;
+     margin-top: 150px;
+ }
+
+ .cont_lov {
+    position: fixed;
+     font-size: 12px;
+     line-height: 0.01;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .text_lov2 {
+     margin-left: 15px;
+ }
+
+ .text_lov3 {
+     margin-left: 20px;
+ }
+
+
+
+
+ /*Основные элементы*/
+ .one {
+     margin-left: 60px;
+     font-size: 17px;
+ }
+
+ .two {
+     gap: 15px;
+     margin-left: 60px;
+ }
+
+ .three {
+     gap: 45px;
+     margin-left: 45px;
+ }
+
+ .four {
+     margin-left: 30px;
+ }
+
+ .five {
+     margin-left: 28px;
+ }
+
+ .six {
+     margin-left: 35px;
+ }
+
+ .seven {
+     margin-left: 50px;
+ }
+
+ .eight {
+     margin-left: 60px;
+ }
+
+ .nine {
+     margin-left: 80px;
+ }
+
+ .ten {
+     margin-left: 100px;
+ }
+
+ .eleven {
+     margin-left: 130px;
+ }
+
+ .twelve {
+     margin-left: 160px;
+ }
+
+ .threeting {
+     margin-left: 180px;
+ }
+
+
+
+
+
+
+
+
+
+ footer {
+     position: fixed;
+     width: 100%;
+     height: 120px;
+     background-color: black;
+     
+ }
+ .text_footer{
+    color: aliceblue;
+    margin-left: 87%;
+    margin-top: 80px;
+ }
+
+
+
+ @media(max-width:1700px){
+    
+ }
+ 
