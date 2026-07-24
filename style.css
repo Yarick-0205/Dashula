@@ -1,15 +1,60 @@
  body {
+     background-color: rgb(255, 217, 230);
      margin: 0;
      padding: 0;
  }
 
  header {
-     top: 0%;
-     height: 120px;
-     background-color: black;
-     border-radius: -40px;
- }
+     height: 140px;
+     position: relative;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
 
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+
+ }
+.text_header{
+    width: 300px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transform: rotate(-3deg) scale(1.05);
+     /* Небольшой наклон и увеличение для динамики */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+}
 
 
 
@@ -23,8 +68,9 @@
 
 
  main {
+    position: relative;
      background-color: rgb(255, 217, 230);
-     height: 710px;
+     height: 67vh;
  }
 
  /*Контейнеры*/
@@ -45,6 +91,8 @@
      display: flex;
      line-height: 0.01;
      font-size: 12px;
+     text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.3);
+     color: #ff69b4;
  }
 
  .text {
@@ -63,12 +111,14 @@
  }
 
  .cont_lov {
+    
      position: fixed;
      font-size: 12px;
      line-height: 0.01;
-     top: 66%;
+     top: 70.5vh;
      left: 50%;
      transform: translate(-50%, -50%);
+     color: #ff69b4;
  }
 
  .text_lov2 {
@@ -147,16 +197,57 @@
 
 
  footer {
-     position: fixed;
-     width: 100%;
-     height: 120px;
-     background-color: black;
+     margin-top: -20px;
+     position: relative;
+     height: 20%;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
  }
 
  .text_footer {
-     color: aliceblue;
-     margin-left: 87%;
-     margin-top: 80px;
+     margin-left: 78%;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transform: rotate(-3deg) scale(1.05);
+     /* Небольшой наклон и увеличение для динамики */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+     width: 250px;
+     height: 60px;
  }
 
 
@@ -164,23 +255,55 @@
  @media(max-width: 550px) {
 
      .container_main {
-         transform: scale(0.8);
+         transform: scale(0.7);
      }
 
      .clon {
          margin-left: 10px;
      }
 
-     .cont_lov {
-         font-size: 8px;
-         top: 62%;
+     .one {
+         margin-left: 24%;
      }
 
+     .cont_lov {
+         font-size: 6px;
+         top: 65%;
+     }
+
+     .twelve {
+         margin-left: 150px;
+     }
+
+     .threeting {
+         margin-left: 170px;
+     }
+     .text_header{
+        width: 200px;
+     }
  }
 
  @media(max-width: 1600px) {
      .text_footer {
-         margin-left: 60%;
-         margin-top: 70px;
+         font-size: 16px;
+         margin-left: 90px;
+         margin-top: 30px;
+         width: 160px;
+     }
+ }
+
+ @media(max-width:500px) {
+     .clon {
+         margin-left: 20px;
+     }
+
+     .two {
+         gap: 0;
+         margin-left: 60px;
+     }
+
+     .three {
+         gap: 5px;
+         margin-left: 45px;
      }
  }

@@ -1,38 +1,43 @@
 function createPersistentHearts() {
-    const heartsCount = 120; // сколько сердечек
-    for(let i = 0; i < heartsCount; i++) {
+    const heartsCount = 200; // количество сердечек
+    for (let i = 0; i < heartsCount; i++) {
         const heart = document.createElement('div');
-        heart.innerHTML = '💗'; // сердечко
+        heart.innerHTML = '💗';
         heart.style.position = 'fixed';
-        heart.style.left = Math.random() * 100 + 'vw'; // случайная позиция по горизонтали
-        heart.style.top = Math.random() * 100 + 'vh';   // случайная позиция по вертикали
-        heart.style.fontSize = (10 + Math.random() * 20) + 'px'; // размер
-        heart.style.opacity = 0.7 + Math.random() * 0.3; // прозрачность
-        heart.style.zIndex = 9999; // поверх всего
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.top = Math.random() * 100 + 'vh';
+        heart.style.fontSize = (10 + Math.random() * 20) + 'px';
+        heart.style.opacity = 0.7 + Math.random() * 0.3;
+        heart.style.zIndex = 9999;
         document.body.appendChild(heart);
 
         animateHeart(heart);
     }
 }
 
-function animateHeart(heart) {
-    // Бесконечное движение с помощью setInterval или requestAnimationFrame
-    const deltaX = (Math.random() - 0.5) * 50; // случайное смещение по X
-    const deltaY = (Math.random() - 0.5) * 50; // случайное смещение по Y
-    const duration = 10000 + Math.random() * 5000; // случайное время анимации
+// Базовая easing-функция (подбирается под очень плавное движение)
+function easeInOutCubic(t) {
+    return t < 0.5
+        ? 4 * t * t * t
+        : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
 
-    const startX = parseFloat(heart.style.left);
-    const startY = parseFloat(heart.style.top);
+function animateHeart(heart) {
+    const startLeft = parseFloat(heart.style.left);
+    const startTop = parseFloat(heart.style.top);
+    const deltaX = (Math.random() - 0.5) * 25; // чуть меньше амплитуды для плавности
+    const deltaY = (Math.random() - 0.5) * 25;
+    const duration = 4000 + Math.random() * 3000; // чуть короче, для более быстрого танца
 
     const startTime = performance.now();
 
     function move() {
         const elapsed = performance.now() - startTime;
         const progress = Math.min(elapsed / duration, 1);
+        const easedProgress = easeInOutCubic(progress);
 
-        // Новые координаты
-        const currentX = startX + deltaX * progress;
-        const currentY = startY + deltaY * progress;
+        const currentX = startLeft + deltaX * easedProgress;
+        const currentY = startTop + deltaY * easedProgress;
 
         heart.style.left = currentX + 'vw';
         heart.style.top = currentY + 'vh';
@@ -40,7 +45,7 @@ function animateHeart(heart) {
         if (progress < 1) {
             requestAnimationFrame(move);
         } else {
-            // Зацикливаем движение, чтобы сердечки не исчезали
+            // После завершения, начинаем заново, чтобы сердечки "плавали"
             animateHeart(heart);
         }
     }
@@ -48,7 +53,7 @@ function animateHeart(heart) {
     move();
 }
 
-// запуск при загрузке
+// Запуск при загрузке
 document.addEventListener('DOMContentLoaded', () => {
     createPersistentHearts();
 });
