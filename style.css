@@ -259,7 +259,7 @@
      }
 
      .clon {
-         margin-left: 10px;
+         margin-left: 0px;
      }
 
      .cont_lov {
@@ -375,4 +375,12 @@
     .three{
         margin-left: 15px;
     }
+}
+
+
+@media(max-height:844px){
+    main{
+        height: 66vh;
+    }
+
 }
