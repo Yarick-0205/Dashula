@@ -269,8 +269,11 @@
 
      .text_header {
          width: 200px;
+         margin-bottom: 40px;
      }
-
+     .text_header{
+        margin-bottom: 20px;
+     }
      .clon {
          left: 0;
      }
@@ -364,6 +367,12 @@
  }
 @media(max-width: 405px){
     .threeting{
-        margin-left: 125px;
+        margin-left: 115px;
+    }
+    .twelve{
+        margin-left: 105px;
+    }
+    .three{
+        margin-left: 15px;
     }
 }
