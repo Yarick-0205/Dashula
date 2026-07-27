@@ -382,5 +382,17 @@
     main{
         height: 66vh;
     }
+    .cont_lov{
+        top: 71.5%;
+    }
+    .text_footer{
+        margin-bottom: 20px;
+    }
+    .text_header{
+        margin-bottom: 20px;
+    }
+    .clon{
+        margin-left: -20px;
+    }
 
 }
