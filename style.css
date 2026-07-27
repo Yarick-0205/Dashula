@@ -383,16 +383,16 @@
         height: 66vh;
     }
     .cont_lov{
-        top: 70vh;
+        top: 67vh;
     }
     .text_footer{
-        margin-top: -20px;
+        margin-top: 5px;
     }
     .text_header{
-        margin-top: -20px;
+        margin-top: 5px;
     }
     .clon{
-        margin-left: -20px;
+        margin-left: -40px;
     }
 
 }
