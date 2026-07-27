@@ -383,13 +383,13 @@
         height: 66vh;
     }
     .cont_lov{
-        top: 71.5%;
+        top: 70vh;
     }
     .text_footer{
-        margin-bottom: 20px;
+        margin-top: -20px;
     }
     .text_header{
-        margin-bottom: 20px;
+        margin-top: -20px;
     }
     .clon{
         margin-left: -20px;
