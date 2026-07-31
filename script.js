@@ -1,5 +1,5 @@
 function createPersistentHearts() {
-    const heartsCount = 200; // количество сердечек
+    const heartsCount = 150; // количество сердечек
     for (let i = 0; i < heartsCount; i++) {
         const heart = document.createElement('div');
         heart.innerHTML = '💗';
