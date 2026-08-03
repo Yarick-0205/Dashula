@@ -1,0 +1,212 @@
+ body {
+     background-color: rgb(255, 217, 230);
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     height: 13.5vh;
+     position: relative;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 8px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+     margin-bottom: 10px;
+ }
+.container_header{
+    display: flex;
+}
+.header_list{
+    height: 8vh;
+    margin-left: 20px;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 12px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+}
+ .text_header {
+    height: 10vh;
+     width: 300px;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 12px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transform: rotate(-3deg) scale(1.05);
+     /* Небольшой наклон и увеличение для динамики */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+ }
+
+
+ main {
+     position: relative;
+     background-color: rgb(255, 217, 230);
+     height: 67vh;
+ }
+
+ .container_main {
+    margin-top: 100px;
+     width: 250px;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     margin: 0 auto;
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer {
+    margin-top: 10px;
+     position: relative;
+     height: 13.5vh;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+ }
+
+ .text_footer {
+     margin-left: 78%;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transform: rotate(-3deg) scale(1.05);
+     /* Небольшой наклон и увеличение для динамики */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+     width: 250px;
+     height: 60px;
+ }
+
+ @media(max-width:550px) {
+     .text_header {
+         width: 200px;
+         margin-bottom: 40px;
+     }
+
+     .text_header {
+         margin-bottom: 20px;
+     }
+ }
+
+ @media(max-width: 1600px) {
+     .text_footer {
+         font-size: 16px;
+         margin-left: 90px;
+         margin-top: 30px;
+         width: 160px;
+     }
+ }
