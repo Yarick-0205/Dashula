@@ -57,7 +57,7 @@
      /* Плавное изменение стилей при наведении */
 }
  .text_header {
-    margin-top: 5px;
+    margin-top: 3px;
     height: 10vh;
      width: 300px;
      font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -78,7 +78,7 @@
      /* Стильная рамка с точками */
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
      /* Тень вокруг блока для глубины */
-     transform: rotate(-3deg) scale(1.05);
+     transform: rotate(-2deg) scale(1.05);
      /* Небольшой наклон и увеличение для динамики */
      transition: all 0.3s ease;
      /* Плавное изменение стилей при наведении */
