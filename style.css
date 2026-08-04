@@ -58,11 +58,11 @@
      /* Плавное изменение стилей при наведении */
 }
  .text_header {
-    height: 10vh;
+    height: 8vh;
      width: 300px;
      font-family: 'Comic Sans MS', cursive, sans-serif;
      /* Забавный шрифт для игривого настроения */
-     font-size: 12px;
+     font-size: 14px;
      /* Размер шрифта */
      color: #ff69b4;
      /* Ярко-розовый цвет текста */
