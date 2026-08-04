@@ -57,12 +57,12 @@
      /* Плавное изменение стилей при наведении */
 }
  .text_header {
-  margin-top:-20px;
-    height: 8vh;
+    margin-top: 10px;
+    height: 10vh;
      width: 300px;
      font-family: 'Comic Sans MS', cursive, sans-serif;
      /* Забавный шрифт для игривого настроения */
-     font-size: 14px;
+     font-size: 12px;
      /* Размер шрифта */
      color: #ff69b4;
      /* Ярко-розовый цвет текста */
@@ -85,14 +85,23 @@
  }
 
 
+
+
+
+
+
+
+
+
+
+
  main {
      position: relative;
      background-color: rgb(255, 217, 230);
-     height: 67vh;
  }
 
  .container_main {
-    margin-top: 100px;
+    margin: 2px auto;
      width: 250px;
      font-family: 'Comic Sans MS', cursive, sans-serif;
      /* Забавный шрифт для игривого настроения */
@@ -112,9 +121,9 @@
      /* Стильная рамка с точками */
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
      /* Тень вокруг блока для глубины */
-     margin: 0 auto;
      transition: all 0.3s ease;
      /* Плавное изменение стилей при наведении */
+     
  }
 
 
@@ -138,6 +147,7 @@
 
 
  footer {
+    bottom: -2vh;
      position: relative;
      height: 13.5vh;
      font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -163,7 +173,6 @@
  }
 
  .text_footer {
-  margin-top:-20px;
      margin-left: 78%;
      font-family: 'Comic Sans MS', cursive, sans-serif;
      /* Забавный шрифт для игривого настроения */

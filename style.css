@@ -58,11 +58,11 @@
      /* Плавное изменение стилей при наведении */
 }
  .text_header {
-    height: 8vh;
+    height: 10vh;
      width: 300px;
      font-family: 'Comic Sans MS', cursive, sans-serif;
      /* Забавный шрифт для игривого настроения */
-     font-size: 14px;
+     font-size: 12px;
      /* Размер шрифта */
      color: #ff69b4;
      /* Ярко-розовый цвет текста */
@@ -285,9 +285,6 @@
          transform: scale(0.8);
      }
 
-     .clon {
-         margin-left: 0px;
-     }
 
      .cont_lov {
          font-size: 8px;
@@ -301,10 +298,7 @@
      .text_header{
         margin-bottom: 20px;
      }
-     .clon {
-         left: 0;
-     }
-
+     
      .text {
          margin-left: 3px;
      }
@@ -412,14 +406,14 @@
     }
     
     .text_footer{
-        margin-top: -7px;
+        margin-top: -5px;
     }
     .text_header{
-        margin-top: -7px;
+        margin-top: -5px;
     }
   
     .cont_lov{
-        top: 71.5vh;
+        top: 71vh;
        
     }
 
